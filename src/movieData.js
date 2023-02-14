@@ -2,85 +2,84 @@ export const movieData = [
   {
     id: 1,
     image:
-      "https://i.pinimg.com/originals/4d/ea/be/4deabeb03554cacdba17995886789005.jpg",
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg",
     rating: 4,
-    title: "Devil's Mile",
-    date: "2014",
-    type: "Action | Crime",
-    trailer: "https://www.youtube.com/embed/iGTSDqSLXN0",
+    title: " Five Feet Apart",
+    date: "2019",
+    type: "drama | romance",
+    trailer: "https://youtu.be/XtgCqMZofqM",
     description:
-      "A relentlessly-paced hybrid of gritty crime thriller and Lovecraftian supernatural horror, The Devil's Mile follows a trio of kidnappers who take an ill-advised detour en route to deliver...",
+      "A pair of teenagers with cystic fibrosis meet in a hospital and fall in love, though their disease means they must avoid close physical contact.",
   },
   {
     id: 2,
     image:
-      "https://static.cinemagia.ro/img/db/movie/00/69/88/once-upon-a-time-in-the-west-549264l.jpg",
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
     rating: 5,
-    title: "Once Upon A Time In The west",
-    date: "1968",
-    type: "Western",
-    trailer: "https://www.youtube.com/embed/c8CJ6L0I6W8k",
+    title: "Encanto ",
+    date: "2021",
+    type: "animation|comedy|family",
+    trailer: "https://youtu.be/CaimKeDcudo",
     description:
-      "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+      "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope",
   },
   {
     id: 3,
     image:
-      "https://i.pinimg.com/564x/37/bd/f8/37bdf8f405a30977959e112d6f48aec0.jpg",
-    rating: 4,
-    title: "Taxi Driver",
-    date: "1976",
-    type: "Crime | Drama",
-    trailer: "https://www.youtube.com/embed/UUxD4-dEzn0",
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ykUEbfpkf8d0w49pHh0AD2KrT52.jpg",
+    rating: 3,
+    title: "Aladdin",
+    date: "2019",
+    type: " Adventure|  Fantasy,",
+    trailer: "https://youtu.be/VcBllhVj1eA",
     description:
-      "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",
+      "A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp that has the power to make their deepest wishes come true.",
   },
   {
     id: 4,
     image:
-      "https://i.pinimg.com/564x/78/55/ac/7855acc7002b1ae619b1edaa4b595df3.jpg",
-    rating: 4,
-    title: "Mad Max",
-    date: "1979",
-    type: "Action | Adventure",
-    trailer: "https://www.youtube.com/embed/hEJnMQG9ev8",
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4JeejGugONWpJkbnvL12hVoYEDa.jpg",
+    rating: 3,
+    title: "Moana",
+    date: "2016",
+    type: "Animation | Adventure | Family",
+    trailer: "https://youtu.be/LKFuXETZUsI",
     description:
-      "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
+      "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
   },
   {
     id: 5,
     image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b1330b14202071.5627f4dc23472.jpg",
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
     rating: 3,
-    title: "Little Miss Sunshine",
-    date: "2006",
-    type: "Comedy | Drama",
-    trailer: "https://www.youtube.com/embed/wvwVkllXT80",
+    title: "Harry Potter and the Philosopher's Stone ",
+    date: "2001",
+    type: "Fantasy | Adventure",
+    trailer: "https://youtu.be/mNgwNXKBEW0",
     description:
-      "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
+      "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
   },
   {
     id: 6,
     image:
-      "https://i.pinimg.com/564x/32/49/1c/32491ccd2f4ce577dea8871988c5828c.jpg",
-    rating: 5,
-    title: "KILL BILL: VOL. 1",
-    date: "2003",
-    type: "Action",
-    trailer: "https://www.youtube.com/embed/7kSuas6mRpk",
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",
+    rating: 4,
+    title: "Beauty and the Beast ",
+    date: "2017",
+    type: " Fantasy|Romance ",
+    trailer: "https://youtu.be/e3Nl_TCQXuw",
     description:
-      "The lead character, called 'The Bride,' was a member of the Deadly Viper Assassination Squad, led by her lover 'Bill.'The Bride' decided to escape her life as a killer.",
-    details: "https://www.imdb.com/title/tt0266697/plotsummary?ref_=tt_stry_pl",
+      "A live-action adaptation of Disney's version of the classic tale of a cursed prince and a beautiful young woman who helps him break the spell. ",
   },
   // {
   //   id: Math.random(),
   //   image:
-  //     "https://i.pinimg.com/originals/3e/f1/ba/3ef1baaaceb5a95c4f57a7cb2393b39d.jpg",
-  //   rating: 5,
-  //   title: "The Wolf Of Wall Street",
-  //   date: "2013",
-  //   type: " Biography | Crime | Drama  ",
+  //     "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+  //   rating: 3,
+  //   title: "The Lion King  ",
+  //   date: "2019",
+  //   type: " Adventure | Family | Drama  ",
+  //  trailer:https://youtu.be/4CbLXeGSDxg
   //   description:
-  //     "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
-  // }
+  //    "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother—and former heir to the throne—has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his."
 ];

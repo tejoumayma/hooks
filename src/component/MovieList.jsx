@@ -4,7 +4,7 @@ import MovieCard from "./MovieCard";
 const MovieList = ({ movieData, title, rating }) => {
   console.log(movieData);
   return (
-    <div>
+    <div style={{ display: "flex" }}>
       {movieData
         .filter(
           (movie) =>

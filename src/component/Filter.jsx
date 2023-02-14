@@ -7,7 +7,7 @@ const Filter = ({ title, setTitle }) => {
         type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        className="form-control"
+        className="form-control "
         aria-label="Sizing example input"
         aria-describedby="inputGroup-sizing-default"
         placeholder="Movie name"

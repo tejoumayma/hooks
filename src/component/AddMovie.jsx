@@ -1,7 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 
-const AddMovie = () => {
-  const handleSubmit = (e) => {};
+const AddMovie = ({ addMovie, setMovies }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newMovie = {
+      ...movie,
+      rating: Number(movie.rating),
+      id: Date.now(),
+    };
+    addMovie(newMovie);
+    setMovie({
+      id: "",
+      image: "",
+      rating: "",
+      title: "",
+      date: "",
+      type: "",
+      trailer: "",
+      description: "",
+    });
+  };
+
+  const [movie, setMovie] = useState({
+    id: "",
+    image: "",
+    rating: "",
+    title: "",
+    date: "",
+    type: "",
+    trailer: "",
+    description: "",
+  });
+  const handleChange = (e) => {
+    setMovie({ ...movie, [e.target.name]: e.target.value });
+  };
+
+  const { title, image, rating, date, type, trailer, description } = movie;
   return (
     <div>
       <button
@@ -40,6 +74,8 @@ const AddMovie = () => {
                     Title
                   </label>
                   <input
+                    value={title}
+                    onChange={handleChange}
                     type="text"
                     className="form-control"
                     id="title"
@@ -51,6 +87,8 @@ const AddMovie = () => {
                     Date
                   </label>
                   <input
+                    value={date}
+                    onChange={handleChange}
                     type="date"
                     className="form-control"
                     id="date"
@@ -62,10 +100,12 @@ const AddMovie = () => {
                     Genre
                   </label>
                   <input
+                    value={type}
+                    onChange={handleChange}
                     type="text"
                     className="form-control"
-                    id="genre"
-                    name="genre"
+                    id="type"
+                    name="type"
                   />
                 </div>
                 <div className="mb-3">
@@ -73,10 +113,12 @@ const AddMovie = () => {
                     Poster
                   </label>
                   <input
+                    value={image}
+                    onChange={handleChange}
                     type="url"
                     className="form-control"
-                    id="poster"
-                    name="poster"
+                    id="image"
+                    name="image"
                   />
                 </div>
                 <div className="mb-3">
@@ -84,6 +126,8 @@ const AddMovie = () => {
                     Trailer
                   </label>
                   <input
+                    value={trailer}
+                    onChange={handleChange}
                     type="url"
                     className="form-control"
                     id="trailer"
@@ -95,6 +139,8 @@ const AddMovie = () => {
                     Rating
                   </label>
                   <input
+                    value={rating}
+                    onChange={handleChange}
                     type="number"
                     min={0}
                     max={5}
@@ -105,28 +151,34 @@ const AddMovie = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="descreption" className="form-label">
-                    Dscription
+                    Description
                   </label>
                   <input
+                    value={description}
+                    onChange={handleChange}
                     type="text"
                     className="form-control"
-                    id="descreption"
-                    name="descreption"
+                    id="description"
+                    name="description"
                   />
                 </div>
+                <div className="modal-footer">
+                  <button
+                    type="submit"
+                    className="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="submit"
+                    className="btn btn-primary"
+                    data-bs-dismiss="modal"
+                  >
+                    Add
+                  </button>
+                </div>
               </form>
-            </div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" className="btn btn-primary">
-                Add
-              </button>
             </div>
           </div>
         </div>

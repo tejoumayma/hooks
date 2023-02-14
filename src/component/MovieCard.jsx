@@ -6,14 +6,14 @@ const MovieCard = ({ movie }) => {
   return (
     <div>
       <div className="card" style={{ width: "18rem" }}>
-        <img src={image} className="card-img-top" />
-        <p>
-          <Rate rating={rating} />
-        </p>
+        <img src={image} alt="" className="card-img-top" />
+
+        <Rate rating={rating} />
+
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <a href="#" className="btn btn-primary">
+          <a href="#!" className="btn btn-primary">
             Read more
           </a>
         </div>
