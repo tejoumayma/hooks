@@ -43,6 +43,7 @@ const AddMovie = ({ addMovie, setMovies }) => {
         className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
+        style={{}}
       >
         Add your movie
       </button>

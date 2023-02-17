@@ -4,7 +4,13 @@ import MovieCard from "./MovieCard";
 const MovieList = ({ movieData, title, rating }) => {
   console.log(movieData);
   return (
-    <div style={{ display: "flex" }}>
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(3, 1fr)",
+        gap: "1rem",
+      }}
+    >
       {movieData
         .filter(
           (movie) =>
